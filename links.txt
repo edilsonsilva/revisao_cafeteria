@@ -4,3 +4,10 @@ cafeteria                       cafeteria.html
 cadápio                         cardapio.html
 contato                         contato.html
 localização                     localizacao.html
+
+
+Fonte Pacifico para Títulos
+
+Fonte Play para Links
+
+Fonte Tajawal para textos
