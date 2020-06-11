@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-image: url("../img/cafeteria1.jpg");
+  background-size: 100%;
+  background-position: 0 -400px;
+  height: 40vh;
+  transition: ease 2s;
+}
+header h1 {
+  text-align: center;
+  color: white;
+  padding-top: 250px;
+  font-family: "Pacifico";
+  font-size: 40pt;
+  text-shadow: 2px 2px 5px black;
+}
+
+footer {
+  padding: 100px;
+  background-color: rgb(100, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: "Tajawal";
+  font-size: 15pt;
+}
+footer div {
+  width: 48%;
+
+  float: left;
+  margin: 5px;
+}
+
+footer #contatos {
+  line-height: 23pt;
+  text-align: right;
+}
+footer #contatos a {
+  color: white;
+  text-decoration: none;
+}
+
+footer #redes li {
+  display: inline-block;
+  margin: 10px;
+}
