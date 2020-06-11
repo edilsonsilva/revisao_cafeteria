@@ -12,44 +12,63 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <h1>Cafeteria Brasil</h1>
-    </header>
+    <!-- 
+    construção da estrutura de menu lateral chamado de sidebar|side navigation bar
+ -->
+    <nav id="sidenav" class="sidenav">
+      <a href="#" onclick="fechar()" class="fechar">&times;</a>
+      <ul>
+        <li><a href="index.html"> home </a></li>
+        <li><a href="cafeteria.html"> cafeteria </a></li>
+        <li><a href="cadapio.html"> cardápio </a></li>
+        <li><a href="contato.html"> contato </a></li>
+        <li><a href="localizacao.html"> localização </a></li>
+      </ul>
+    </nav>
 
-    <main></main>
+    <div id="main">
+      <header>
+        <!-- Botão para abrir o menu(barra de navegação) -->
+        <a href="#" onclick="abrir()" class="abrir"> Menu </a>
+        <h1>Cafeteria Brasil</h1>
+      </header>
 
-    <footer>
-      <div id="contatos">
-        Av. Paulo de Almeida, 134 - Vila Nova Buarque - São Paulo -SP <br />
-        Tel: 11-5555-8886 | 11-6669-9996 <br />
-        <a href="mailto:contato@cafeteriabrasil.com.br?Subject=Contato">
-          contato@cafeteriabrasil.com.br
-        </a>
-      </div>
+      <main></main>
 
-      <div id="redes">
-        <nav>
-          <ul>
-            <li>
-              <a href="http://www.facebook.com" target="_blank">
-                <img src="img/facebook.png" alt="Nosso facebook" />
-              </a>
-            </li>
+      <footer>
+        <div id="contatos">
+          Av. Paulo de Almeida, 134 - Vila Nova Buarque - São Paulo -SP <br />
+          Tel: 11-5555-8886 | 11-6669-9996 <br />
+          <a href="mailto:contato@cafeteriabrasil.com.br?Subject=Contato">
+            contato@cafeteriabrasil.com.br
+          </a>
+        </div>
 
-            <li>
-              <a href="http://www.instagram.com" target="_blank">
-                <img src="img/instagram.png" alt="Nosso instagram" />
-              </a>
-            </li>
+        <div id="redes">
+          <nav>
+            <ul>
+              <li>
+                <a href="http://www.facebook.com" target="_blank">
+                  <img src="img/facebook.png" alt="Nosso facebook" />
+                </a>
+              </li>
 
-            <li>
-              <a href="http://www.youtube.com" target="_blank">
-                <img src="img/youtube.png" alt="Nosso canal no youtube" />
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </footer>
+              <li>
+                <a href="http://www.instagram.com" target="_blank">
+                  <img src="img/instagram.png" alt="Nosso instagram" />
+                </a>
+              </li>
+
+              <li>
+                <a href="http://www.youtube.com" target="_blank">
+                  <img src="img/youtube.png" alt="Nosso canal no youtube" />
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </div>
+    <script src="js/script.js"></script>
   </body>
 </html>
