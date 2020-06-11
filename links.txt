@@ -1,0 +1,6 @@
+text apresentação               links
+home                            index.html
+cafeteria                       cafeteria.html
+cadápio                         cardapio.html
+contato                         contato.html
+localização                     localizacao.html
