@@ -1,4 +1,4 @@
-text apresentação               links
+texto apresentação               links
 home                            index.html
 cafeteria                       cafeteria.html
 cadápio                         cardapio.html
