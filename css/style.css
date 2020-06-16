@@ -90,3 +90,36 @@ footer #redes li {
 #main {
   transition: ease 0.5s;
 }
+/* formatação aplicada a todos os h2 do site */
+main h2 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding-left: 50px;
+  border-bottom: 1px solid darkred;
+  font-family: "Pacifico";
+  font-size: 30pt;
+}
+
+/* formatação aplicada a página index.html */
+main p {
+  font-family: "Tajawal";
+  font-size: 15pt;
+  width: 80%;
+  margin: 0 auto;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+main #imgHome {
+  text-align: center;
+}
+main #imgHome img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  transition: ease 0.5s;
+  cursor: pointer;
+}
+main #imgHome img:hover {
+  transform: rotateY(180deg);
+}
