@@ -123,3 +123,51 @@ main #imgHome img {
 main #imgHome img:hover {
   transform: rotateY(180deg);
 }
+
+/* formatação da página cafeteria */
+main #imgCafeteria,
+main #videoCafeteria {
+  text-align: center;
+}
+main #imgCafeteria img {
+  width: 500px;
+  margin: 20px;
+  box-shadow: 1px 2px 10px silver;
+}
+main #videoCafeteria iframe {
+  width: 80%;
+  height: 500px;
+}
+
+/* formatação para a página cardápio */
+
+main section {
+  width: 100%;
+  display: inline-table;
+  box-shadow: 1px 1px 5px silver;
+  padding: 5px;
+  margin-bottom: 100px;
+}
+
+main section div {
+  width: 23.5%;
+  margin: 10px;
+  float: left;
+  box-shadow: 1px 1px 2px silver;
+}
+
+main section div img {
+  width: 100%;
+}
+
+main h3 {
+  font-family: "pacifico";
+  font-size: 20pt;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+main section h4 {
+  font-family: "pacifico";
+  font-size: 15pt;
+}
