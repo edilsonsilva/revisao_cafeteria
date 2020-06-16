@@ -171,3 +171,36 @@ main section h4 {
   font-family: "pacifico";
   font-size: 15pt;
 }
+/* formatação para a página contato */
+main form {
+  width: 40%;
+  margin: 20px auto;
+}
+
+main form input,
+main form select,
+main form textarea {
+  width: 100%;
+  padding: 10px;
+  font-family: "Tajawal";
+  font-size: 14pt;
+  margin-bottom: 10px;
+  display: block;
+}
+main form input[type="tel"],
+main form select {
+  width: 40%;
+}
+main form textarea {
+  height: 300px;
+}
+main form input[type="submit"] {
+  cursor: pointer;
+  background-color: darkred;
+  color: white;
+}
+/* formatacao para a página do mapa */
+main #mapa iframe {
+  width: 100%;
+  height: 600px;
+}
