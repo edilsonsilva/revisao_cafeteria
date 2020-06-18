@@ -39,5 +39,5 @@ Para a **construção deste projeto** foi necessário criar uma estrutura de **d
 ![Apresentação da tela index](/telas/telaindex.png)
 
 > > ### Tela Index com Menu
-> >
-> > ![Apresentação da tela index com ](/telas/telaindexmenu.png)]
+
+![Apresentação da tela index com ](/telas/telaindexmenu.png)]
