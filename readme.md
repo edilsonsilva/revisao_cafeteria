@@ -23,3 +23,9 @@ Foram desenvolvidas 7 páginas para esse projeto. Estas páginas estão listadas
 Para a **construção deste projeto** foi necessário criar uma estrutura de **diretórios** para a _organização_ e codificação correta dos **_arquivos_**.
 
 ![Estrutura de diretórios](/telas/estrutura_diretorios.png)
+
+> execução de comandos em javascript. Para esse projeto foi utilizado um menu com abertura lateral. os comandos estão abaixo:
+
+`function abrir() { document.getElementById("sidenav").style.width = "300px"; }`
+
+`function fechar() { document.getElementById("sidenav").style.width = "0"; }`
