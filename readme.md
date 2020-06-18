@@ -29,3 +29,15 @@ Para a **construção deste projeto** foi necessário criar uma estrutura de **d
 > `function abrir() { document.getElementById("sidenav").style.width = "300px"; }`
 
 > `function fechar() { document.getElementById("sidenav").style.width = "0"; }`
+
+---
+
+> ## Veja abaixo as telas do projeto
+
+> ### Tela Index
+
+![Apresentação da tela index](/telas/telaindex.png)
+
+> > ### Tela Index com Menu
+> >
+> > ![Apresentação da tela index com ](/telas/telaindexmenu.png)]
