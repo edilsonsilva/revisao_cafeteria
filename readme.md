@@ -26,6 +26,6 @@ Para a **construção deste projeto** foi necessário criar uma estrutura de **d
 
 > execução de comandos em javascript. Para esse projeto foi utilizado um menu com abertura lateral. os comandos estão abaixo:
 
-`function abrir() { document.getElementById("sidenav").style.width = "300px"; }`
+> `function abrir() { document.getElementById("sidenav").style.width = "300px"; }`
 
-`function fechar() { document.getElementById("sidenav").style.width = "0"; }`
+> `function fechar() { document.getElementById("sidenav").style.width = "0"; }`
